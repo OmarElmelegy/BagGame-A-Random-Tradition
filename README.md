@@ -6,5 +6,4 @@
 
 -  pip install termcolor 
 -  pip install opencv-python 3
--  Enjoy the game
-**Made with ❤️**
+-  Enjoy the game, cuz it's made with ❤️
