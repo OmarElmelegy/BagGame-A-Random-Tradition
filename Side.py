@@ -85,14 +85,14 @@ def DiceTurn(Bags): #This function contains the logic of the turn of the evil di
     return Bags,LastTurn
 
 
-def CheckGameState(Bags): #This function checks the state of the game, it takes the bags list object as an argument to check for it's items
+def CheckGameState(Bags): #This function checks the state of the game, it takes the bags list object as an argument to check for its items
     if(max(Bags)==0):
         return False
     else:
         return True
 
 
-def EndGame(LastTurn,username):  #This function Ends the game and shows the user who won and end the story in an authentic manner, it's arguments are two strings {LastTurn and username}
+def EndGame(LastTurn,username):  #This function Ends the game and shows the user who won and end the story in an authentic manner, its arguments are two strings {LastTurn and username}
     print("\n\n\n")
     sleep(1)
     if LastTurn == username:
